@@ -35,5 +35,14 @@
  .box{
     margin: 10px;
     padding: 10px;
+    width: 300px;
     border: 1px gray solid;
+    background-color: white;
+    transition: background-color .05s ease-out;
  }
+
+ .box:hover {
+    background-color: yellow;
+ }
+
+
